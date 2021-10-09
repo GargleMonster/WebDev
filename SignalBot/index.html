@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Message Bot</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div>
+		<h1>Send/Schedule a Signal Message</h1>
+		
+		<div class="form">
+		<div class="fieldset">
+				<h2>Signal</h2>
+				
+				<div class="field">
+					<p class="row">
+						<label for="registrationId">Registration ID -></label>
+						<input type="text" id="registration-ID" name="registration_ID" class="field-medium" />
+					</p>
+					<p class="row">
+						<label for="your-number">Cell phone number -></label>
+						<input type="tel" id="your-number" name="your_number" class="field-large" />
+					</p>
+				</div>
+				
+				<div class="field">
+					<p class="row">
+						<label for="their-number">Who you're calling -></label>
+						<input type="tel" id="their-number" name="their_number" class="field-large" />
+					</p>
+				</div>
+				
+				<div class="field">
+					<p class="row">
+						<label for="your-message">Your message -></label>
+						<input type="text" id="your-message" name="your_message" class="field-large" />
+					</p>
+				</div>
+				
+				<button id="send-message" name="send-btn">Send</button>
+		</div>
+		</div>
+	</div>
+	
+	<!--
+	
+	<script type="text/javascript" src="../build/curve25519_concat.js"></script>
+	<script type="text/javascript" src="../src/curve25519_worker_manager.js"></script>
+	<script type="text/javascript" src="../build/components_concat.js"></script>
+
+	<script type="text/javascript" src="temp_helpers.js"></script>
+
+	<script type="text/javascript" src="../src/Curve.js" data-cover></script>
+	<script type="text/javascript" src="../src/crypto.js" data-cover></script>
+	<script type="text/javascript" src="../src/helpers.js" data-cover></script>
+	<script type="text/javascript" src="js/KeyHelper.js" data-cover></script>
+	<script type="text/javascript" src="../src/SignalProtocolAddress.js" data-cover></script>
+	<script type="text/javascript" src="../src/SessionBuilder.js" data-cover></script>
+	<script type="text/javascript" src="../src/SessionCipher.js" data-cover></script>
+	<script type="text/javascript" src="../build/protobufs_concat.js" data-cover></script>
+	<script type="text/javascript" src="../src/SessionRecord.js" data-cover></script>
+	<script type="text/javascript" src="../src/SessionLock.js" data-cover></script>
+	<script type="text/javascript" src="../src/NumericFingerprint.js" data-cover></script>
+
+	<script type="text/javascript" src="InMemorySignalProtocolStore.js"></script>
+	<script type="text/javascript" src="crypto_test.js"></script>
+	<script type="text/javascript" src="testvectors.js"></script>
+	<script type="text/javascript" src="SessionCipherTest.js"></script>
+	<script type="text/javascript" src="KeyHelperTest.js"></script>
+	<script type="text/javascript" src="NumericFingerprintTest.js"></script>
+	
+	<script type="text/javascript" src="SessionBuilderTest.js"></script>
+	<script type="text/javascript" src="IdentityKeyStore_test.js"></script>
+	<script type="text/javascript" src="PreKeyStore_test.js"></script>
+	<script type="text/javascript" src="SignedPreKeyStore_test.js"></script>
+	<script type="text/javascript" src="SessionStore_test.js"></script>
+	<script type="text/javascript" src="SignalProtocolStore_test.js"></script>
+
+	
+	<script type="text/javascript" src="helpers_test.js"></script>
+	
+	
+	-->
+	
+	<script type="text/javascript" src="js/require.js"></script>
+	<script type="text/javascript" src="js/InMemorySignalProtocolStore.js"></script>
+	<script type="text/javascript" src="js/libsignal-protocol.js"></script>
+	<script type="text/javascript" src="js/SignalProtocolAddress.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
